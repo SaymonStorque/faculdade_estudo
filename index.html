@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Básico</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2>Sobre Mim</h2>
+            <p>me chamo saymon e esse site é apenas para estudo.</p>
+        </section>
+        
+        <section class="mb-4">
+            <h2>Portfólio</h2>
+            <p>apenas estudo. Nao trabalho com front e nem quero.</p>
+        </section>
+        
+        <section>
+            <h2>Contato</h2>
+            <p>Formas de entrar em contato com você.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano-atual"></span> Saymon. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("ano-atual").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
